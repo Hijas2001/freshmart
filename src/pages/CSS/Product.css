@@ -1,0 +1,130 @@
+/* .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-category {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+} */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-category {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.added-items-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    background-color: rgb(208, 178, 178);
+}
+
+.added-items-container h2 {
+    margin-bottom: 10px;
+}
+
+.added-items-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.added-items-container li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.added-items-container p {
+    color: #555;
+}
+
+.itemcount {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+
+}
+
+/* @media (max-width:800px){
+    .navbar-links{
+        display: hidden;
+    }
+} */
